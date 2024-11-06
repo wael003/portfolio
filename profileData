@@ -1,0 +1,26 @@
+import img1 from "../assets/facebook.png";
+import img2 from "../assets/linkedin.png";
+import img3 from "../assets/social.png";
+import img4 from "../assets/twitter.png";
+
+const profileData = [{
+    id : 1,
+    link : "https://www.facebook.com",
+    image : img1
+},
+{
+    id : 2,
+    link : "https://www.linkedin.com",
+    image : img2
+},
+{
+    id : 3,
+    link : "https://www.social.com",
+    image : img3
+},
+{
+    id : 4,
+    link : "https://www.twitter.com",
+    image : img4
+}]
+export default profileData;

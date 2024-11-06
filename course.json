@@ -1,0 +1,24 @@
+
+[
+    {
+        "id" : 1,
+        "title" : "my first course",
+        "description" : "This is my first course",
+        "link" : "https://www.google.com",
+        "image" : "../assets/download.jpeg"
+    },
+    {
+        "id" : 2,
+        "title" : "my second course",
+        "description" : "This is my second course",
+        "link" : "https://www.yahoo.com",
+        "image" : "../assets/download (1).jpeg"
+    },
+    {
+        "id" : 3,
+        "title" : "my third course",
+        "description" : "This is my third course",
+        "link" : "https://www.cnn.com",
+        "image" : "../assets/download (2).jpeg"
+    }
+]

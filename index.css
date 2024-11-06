@@ -1,0 +1,130 @@
+*{
+    list-style : none;
+}
+.column{
+    float: left;
+    width: 50%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.card{
+    display: inline-block;
+    margin: 20px;
+    min-width: 200px;
+    max-width: 300px;
+
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.card h2{
+    color: #bfbebe;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    font-size: 17px;
+    padding: 5px;
+}
+.card button{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card button:hover{
+    opacity: 0.5;
+}
+.linkat a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.quali {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .quali li {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  .quali h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .quali p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .quali a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .quali a:hover {
+    text-decoration: underline;
+  }
+  
+  .fade-out{
+    opacity: 0;
+    animation: fade-out 2s;
+
+  }
+  .fade-in{
+    opacity: 100;
+    animation: fade-in 2s;
+
+  }
+
+  @keyframes fade-out{
+    from{
+        opacity: 100;
+    }to{
+        opacity: 0;
+    }
+  }
+  @keyframes fade-in{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 100;
+    }
+  }
+  .header{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .header h3 .link{
+    color: #0066cc;
+    text-decoration: none;
+  }
+  .header h3 .link:hover{
+    text-decoration: underline;
+    color: #024b95;
+  }
+  .gallary{
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px 0 rgba(47, 123, 116, 0.2);
+  }
+  
